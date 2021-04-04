@@ -4,6 +4,12 @@ Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
+Plug 'blueshirts/darcula' "Darcula theme
+"Status bar
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end() "Ends the loading of the plug in
 let mapleader=" "
 noremap <leader>f :NERDTreeToggle<CR>
+"Set theme to Darcula
+colorscheme darcula
