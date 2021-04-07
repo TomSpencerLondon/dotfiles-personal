@@ -13,3 +13,7 @@ let mapleader=" "
 noremap <leader>f :NERDTreeToggle<CR>
 "Set theme to Darcula
 colorscheme darcula
+
+:set tabstop=4
+:set shiftwidth=4
+:set expandtab
